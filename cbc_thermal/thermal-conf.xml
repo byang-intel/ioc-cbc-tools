@@ -84,6 +84,11 @@
 			<TripPoints>
 				<TripPoint>
 					<SensorType>cbc_env_temp</SensorType>
+					<Temperature>100</Temperature>
+					<type>critical</type>
+				</TripPoint>
+				<TripPoint>
+					<SensorType>cbc_env_temp</SensorType>
 					<Temperature>45</Temperature>
 					<type>passive</type>
 					<CoolingDevice>
@@ -123,6 +128,11 @@
 		<ThermalZone>
 			<Type>CBC_Amplifier</Type>
 			<TripPoints>
+				<TripPoint>
+					<SensorType>cbc_amplifier_temp</SensorType>
+					<Temperature>100</Temperature>
+					<type>critical</type>
+				</TripPoint>
 				<TripPoint>
 					<SensorType>cbc_amplifier_temp</SensorType>
 					<Temperature>45</Temperature>
